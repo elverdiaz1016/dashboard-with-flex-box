@@ -124,13 +124,80 @@ body
 .left__english-level
 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 8px;
     margin: 1em;
     height: 3em;
-    background-color: #c0bebe;
-    border-radius: 1em;
+}
+.english-level__firt-item
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#F5F5F7;
+    border-radius: .7em;
+    padding: .2em;
+}
+.firt-item__icono
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: .5em;
+    background-color: rgb(255, 255, 255);
+}
+.firt-item__icono #icono__image-github
+{
+    width: 25px;
+}
+.firt-item__level
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 80px;
+    margin-left: .4em;
+}
+.level__text-level
+{
+    font-family: 'PoetsenOne', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+.level__text-name
+{
+    font-family: 'roboto', sans-serif;
+    font-size: .7em;
+    font-weight: 400;
+}
+
+.firt-item__percentage #percentage__image-circle
+{
+    width: 27px;
+}
+.boton-continue--style
+{
+    background-color: black;
+    border-radius: .6em;
+    border: #000;
+    color: white;
+    height: 26px;
+    font-family: "PoetsenOne", sans-serif;
+    font-size: .8em;
+    letter-spacing: -0.3px;
+    padding: .4em;
+    margin-left: .2em;
+}
+
+.english-level__second-item #second-item__arrows--size
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    padding: .04em;
 }
 .left__courses
 {
