@@ -2,7 +2,6 @@
 {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 body
 {
@@ -79,10 +78,11 @@ body
 }
 .left__card-greet
 {
-    background-color: rgb(188, 188, 188);
+    background-color:#F5F5F7;
     margin: 1em;
     display: flex;
-    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
     border-radius: 1em;
     padding: 8px;
     height: 80px;
@@ -92,23 +92,44 @@ body
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 1em;
-    margin-right: 3em;
-    
+    margin: 1em;   
+}
+.text-info__greet
+{
+    margin-bottom: .3em;
+}
+.text-info__greet--font
+{
+    font-family: 'PoetsenOne', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.text-info__slogan--font
+{
+    font-family: 'roboto', sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    color: #232323;
 }
 .card-greet__image-greet
 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+}
+.image-greet_image #image-greet
+{
+    margin-top: -1.3em;
+    width: 100px;
 }
 .left__english-level
 {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 8px;
     margin: 1em;
     height: 3em;
-    background-color: rgb(188, 188, 188);
+    background-color: #c0bebe;
     border-radius: 1em;
 }
 .left__courses
