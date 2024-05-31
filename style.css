@@ -17,6 +17,7 @@ body
     height: 100%;
     border-radius: .6em;
     background-color: black;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, .7);
 }
 .sidebar__content
 {
@@ -70,11 +71,12 @@ body
     display: flex;
     flex-wrap: wrap;
     width: 614.2px;
-    margin-left: 53px;
+    margin-left: 40px;
+    justify-content: center;
 }
 .content__left
 {
-    width: 307.1px;
+    width: 90%;
 }
 .left__card-greet
 {
@@ -97,6 +99,7 @@ body
 .text-info__greet
 {
     margin-bottom: .3em;
+    width: 130px;
 }
 .text-info__greet--font
 {
@@ -127,15 +130,17 @@ body
     align-items: center;
     margin: 1em;
     height: 3em;
+    justify-content: space-around;
 }
 .english-level__firt-item
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color:#F5F5F7;
     border-radius: .7em;
     padding: .2em;
+    width: 100%;
 }
 .firt-item__icono
 {
@@ -196,18 +201,146 @@ body
     justify-content: center;
     align-items: center;
     height: 30px;
-    width: 100%;
+    max-width: 50px;
     padding: .04em;
 }
 .left__courses
 {
     display: flex;
+    flex-direction: column;
     margin: 1em;
     height: 100px;
-    background-color: rgb(188, 188, 188);
-    padding: 1em;
     border-radius: 1em;
 }
+.courses__tittle-courses
+{
+    display: flex;
+}
+.tittle-courses--font
+{
+    font-family: 'PoetsenOne', sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+}
+.first-language--font
+{
+    font-family: 'PoetsenOne', sans-serif;
+    font-size: .8em;
+    font-weight: 400;
+}
+.language--font
+{
+    font-family: 'PoetsenOne', sans-serif;
+    font-size: .8em;
+    color: #0C0B0B;
+    opacity: 30%;
+}
+.courses__choose-language
+{
+    display: flex;
+    justify-content: space-between;
+}
+.courses__course-content
+{
+    width: 100%;
+
+}
+.course-content__html
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .3em;
+    border-radius: .7em;
+    background-color: #F5F5F7;
+    height: 41px;
+
+}
+.html__icono
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    height: 40px;
+}
+#imagen-html
+{
+    width: 20px;
+    height: 20px;
+}
+.text-info__tittle
+{
+    font-family: 'PoetsenOne', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+.text-info__name
+{
+    font-family: 'roboto', sans-serif;
+    font-size: .7em;
+    font-weight: 400;
+    margin-top: .5em;
+}
+.html__container-rigth
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-rigth__top-content
+{
+    display: flex;
+    align-items: center;
+}
+.top-content__time
+{
+    display: flex;
+    min-width: 75px;
+    margin-right: 1em;
+}
+.time___analog-time span
+{
+    font-family: 'roboto', sans-serif;
+    font-size: .7em;
+    font-weight: 400;
+}
+.qualification__text-qualification span
+{
+    font-family: 'roboto', sans-serif;
+    font-size: .7em;
+    font-weight: 400;
+}
+.top-content__qualification
+{
+    display: flex;
+}
+.qualification__icon-fire, .time__icon-watch
+{
+    margin-right: .5em;
+    display: flex;
+}
+.container-rigth__bottom-content
+{
+    display: flex;
+    justify-content: center;
+    margin-top: .3em;
+}
+.bottom-content__view-course-button button
+{
+    background-color: #000;
+    color: white;    
+    border: none;
+    border-radius: .4em;
+    padding: .4em;
+    font-family: "PoetsenOne", sans-serif;
+    font-size: .8em;
+    letter-spacing: -0.3px;
+}
+
+/* ----------------------------------- conianter --------------------*/
 .content__right
 {
     width: 307.1px;
@@ -266,3 +399,43 @@ body
     border-radius: 1em;
     padding: 6px;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) 
+{ 
+    body
+    {
+        background-color: red;
+    }
+    .content__left
+    {
+        width: 307.1px;
+    }
+    .content__right {
+        width: 307.1px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) 
+{
+    body
+    {
+        background-color: rgb(200, 255, 0);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px)
+{
+    body
+    {
+        background-color: rgb(255, 0, 200);
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

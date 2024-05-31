@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@800&display=swap" rel="stylesheet">
     <title>Mi Página</title>
 </head>
+
 <body>
     <div class="container">
         <div class="container__sidebar">
@@ -28,26 +31,29 @@
         </div>
         <div class="container__content">
             <div class="content__left">
-                 <div class="left__card-greet">
+                <div class="left__card-greet">
                     <div class="card-greet__text-info">
                         <div class="text-info__greet"><span class="text-info__greet--font">Hello Guys!</span></div>
-                        <div class="text-info__slogan"><h6 class="text-info__slogan--font">Excelencia Técnica</span></div>
+                        <div class="text-info__slogan">
+                            <h6 class="text-info__slogan--font">Excelencia Técnica</span>
+                        </div>
                     </div>
                     <div class="card-greet__image-greet">
-                        <div class="image-greet_image"><img src="/images/Illustration.svg" alt="Personita" id="image-greet"></div>
+                        <div class="image-greet_image"><img src="/images/Illustration.svg" alt="Personita"
+                                id="image-greet"></div>
                     </div>
-                 </div>
-                 <div class="left__english-level">
+                </div>
+                <div class="left__english-level">
                     <div class="english-level__firt-item">
                         <div class="firt-item__icono">
-                            <img id="icono__image-github"src="/images/github-desktop.svg" alt="icono-github">
+                            <img id="icono__image-github" src="/images/github-desktop.svg" alt="icono-github">
                         </div>
                         <div class="firt-item__level">
                             <div class="level__text-level">English A2</div>
                             <div class="level__text-name">Elver Riaño D.</div>
                         </div>
                         <div class="firt-item__percentage">
-                            <img id="percentage__image-circle" src="/images/circulo.svg" alt="">  
+                            <img id="percentage__image-circle" src="/images/circulo.svg" alt="">
                         </div>
                         <div class="firt-item__boton-continue">
                             <button type="button" class="boton-continue--style">Continue</button>
@@ -59,7 +65,54 @@
                         </div>
                     </div>
                 </div>
-                 <div class="left__courses"></div>
+                <div class="left__courses">
+                    <div class="courses__tittle-courses"> <span class="tittle-courses--font"> Cursos </span></div>
+                    <div class="courses__choose-language">
+                        <div class="choose-language__first-language">
+                            <span class="first-language--font">Todos los cursos</span>
+                        </div>
+                        <div class="choose-language__second-language">
+                            <span class="language--font">Html</span>
+                        </div>
+                        <div class="choose-language__third-language">
+                            <span class="language--font">Css</span>
+                        </div>
+                        <div class="choose-language__fourth-language">
+                            <span class="language--font">Js</span>
+                        </div>
+                        <div class="choose-language__fifth-language">
+                            <span class="language--font">C#</span>
+                        </div>
+                    </div>
+                    <!-- ----------- -->
+                    <div id="cardTechnology" class="courses__course-content">
+                        <div class="course-content__html">
+                            <div class="html__icono"><img id="imagen-html" src="/images/html.svg" alt="Logo html"></div>
+                            <div class="html__text-info">
+                                <div class="text-info__tittle">Html</div>
+                                <div class="text-info__name">Elver Riaño Diaz</div>
+                            </div>
+                            <div class="html__container-rigth">
+                                <div class="container-rigth__top-content">
+                                    <div class="top-content__time">
+                                        <div class="time__icon-watch"><img src="/images/watch.svg" alt=""></div>
+                                        <div class="time___analog-time"><span>6h 30min</span></div>
+                                    </div>
+                                    <div class="top-content__qualification">
+                                        <div class="qualification__icon-fire"><img src="/images/fire.svg" alt=""></div>
+                                        <div class="qualification__text-qualification"><span>4,9</span></div>
+                                    </div>
+                                </div>
+                                <div class="container-rigth__bottom-content">
+                                    <div class="bottom-content__view-course-button">
+                                        <button>view course</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -------- -->
+                </div>
             </div>
             <div class="content__right">
                 <div class="right__top-content">
@@ -77,4 +130,5 @@
         </div>
     </div>
 </body>
+
 </html>
