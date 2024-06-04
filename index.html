@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@800&display=swap" rel="stylesheet">
     <title>Mi Página</title>
 </head>
@@ -85,33 +84,39 @@
                         </div>
                     </div>
                     <!-- ----------- -->
-                    <div id="cardTechnology" class="courses__course-content">
-                        <div class="course-content__html">
-                            <div class="html__icono"><img id="imagen-html" src="/images/html.svg" alt="Logo html"></div>
-                            <div class="html__text-info">
-                                <div class="text-info__tittle">Html</div>
-                                <div class="text-info__name">Elver Riaño Diaz</div>
-                            </div>
-                            <div class="html__container-rigth">
-                                <div class="container-rigth__top-content">
-                                    <div class="top-content__time">
-                                        <div class="time__icon-watch"><img src="/images/watch.svg" alt=""></div>
-                                        <div class="time___analog-time"><span>6h 30min</span></div>
+                    <template id="cardTechnology">
+                        <div class="courses__course-content">
+                            <div class="course-content__card">
+                                <div class="card__icono"><img id="card__icon--size" src="" alt=""></div>
+                                <div class="card__text-info">
+                                    <div class="text-info__tittle"></div>
+                                    <div class="text-info__name"></div>
+                                </div>
+                                <div class="card__container-rigth">
+                                    <div class="container-rigth__top-content">
+                                        <div class="top-content__time">
+                                            <div class="time__icon-watch"><img src="/images/watch.svg" alt="icon Watch">
+                                            </div>
+                                            <div class="time__analog-time"><span></span></div>
+                                        </div>
+                                        <div class="top-content__qualification">
+                                            <div class="qualification__icon-fire"><img src="/images/fire.svg"
+                                                    alt="icon Fire"></div>
+                                            <div class="qualification__text-qualification"><span></span></div>
+                                        </div>
                                     </div>
-                                    <div class="top-content__qualification">
-                                        <div class="qualification__icon-fire"><img src="/images/fire.svg" alt=""></div>
-                                        <div class="qualification__text-qualification"><span>4,9</span></div>
+                                    <div class="container-rigth__bottom-content">
+                                        <div class="bottom-content__view-course-button">
+                                            <button>view course</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="container-rigth__bottom-content">
-                                    <div class="bottom-content__view-course-button">
-                                        <button>view course</button>
-                                    </div>
-                                </div>
                             </div>
-                        </div>
+                    </template>
+                    <div id="cardContainer">
+                        <!-- aqui se muestra el clon de la tarjeta -->
                     </div>
-                    <!-- -------- -->
+                    <!-- ----------------- -->
                 </div>
             </div>
             <div class="content__right">
@@ -129,6 +134,8 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
