@@ -349,8 +349,26 @@ body
 /* ----------------------------------- conianter --------------------*/
 .content__right
 {
-    width: 307.1px;
+    width: 90%;
 }
+.bar-search__left-item
+{
+    background-color: #F5F5F7;
+    border-radius: .5em;
+    padding: .3em;
+    width: 70%;
+}
+.left-item__search
+{
+    height: 30px;
+    width: 10px;
+}
+.search__icon
+{
+    height: 20px;
+    width: 20px;
+}
+
 .right__top-content
 {
     display: flex;
@@ -361,14 +379,40 @@ body
     border-radius: 1em;
     margin:1em;
 }
+
 .top-content__bar-search
 {
-    width: 250px;
-    background-color: #dfe0e0;
+    width: 100%;
+    display: flex;
     margin: 8px;
-    height: 20px;
-    border-radius: .5em;
+    height: 29px;
 }
+
+.bar-search__rigth-item
+{
+    width: 30%;
+    padding: .3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.notifications__icon-notification
+{
+    width: 25px;
+    
+}
+.rigth-item__profile-picture
+{
+    display: flex;
+}
+.profile-picture__image
+{
+    height: 27px;
+    width: 30px;
+    border-radius: .4em;
+}
+
+
 .top-content__count-courses
 {
     display: flex;
