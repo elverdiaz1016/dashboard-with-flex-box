@@ -73,6 +73,8 @@ body
     width: 100%;
     margin-left: 40px;
     justify-content: center;
+    margin-top: 1em;
+
 }
 .content__left
 {
@@ -253,8 +255,8 @@ body
     background-color: #F5F5F7;
     height: 41px;
     width: 100%;
-    margin: .2em;
-
+    margin: .5em;
+    margin-left: 0;
 }
 .card__icono
 {
@@ -288,7 +290,8 @@ body
 .card__container-rigth
 {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
 .container-rigth__top-content
@@ -318,6 +321,7 @@ body
     font-family: 'roboto', sans-serif;
     font-size: .7em;
     font-weight: 400;
+    margin-right: .5em  ;
 }
 .top-content__qualification
 {
@@ -446,8 +450,8 @@ body
     font-family: 'PoetsenOne', sans-serif;
     font-size: 2em;
     font-weight: 400;
-    width: 40px;
     margin-left: .4em;
+    margin-right: .4em;
 }
 .text-info__courses-completed
 {
@@ -555,19 +559,20 @@ body
 .left-container__top-content
 {
     font-family: 'PoetsenOne', sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 400;
-    margin: 1em;
+    margin: .5em;
     max-width: 169px;
+    min-width: 130px;
 }
 .left-container__center-content
 {
     font-family: 'roboto', sans-serif;
     font-size: .9em;
     font-weight: 400;
-    margin: 1em;
+    margin: .5em;
     margin-top: 0;
-    margin-left: 1.5em;
+    margin-left: .5em;
     width: 130px;
 
 }
@@ -578,7 +583,8 @@ body
     height: 39px;
     width: 100px;
     border-radius: .5em;
-    margin: 1em;
+    margin: .5em;
+    margin-top: 0;
     border: none;
     
 }
@@ -600,10 +606,15 @@ body
     }
     .content__left
     {
-        width: 307.1px;
+        width: 309.1px;
     }
     .content__right {
-        width: 307.1px;
+        width: 279.1px;
+    }
+    .container__content
+    {
+        margin-left: 10%;
+        justify-content: space-around;
     }
 }
 
@@ -614,6 +625,41 @@ body
     {
         background-color: rgb(200, 255, 0);
     }
+    .content__left
+    {
+        width: 60%;
+    }
+    .content__right {
+        width: 40%;
+    }
+    .sidebar__content
+    {
+        margin: 1em;
+        height: 90%;
+    }
+    .container__sidebar
+    {
+        margin: 1em;
+        height: 95%;
+    }
+    .sidebar__start-icons {
+        display: flex;
+        justify-content: center;
+       
+    }
+    .sidebar__center-icons
+    {
+        height: 50%;
+        margin-top: -91px;
+    }
+    
+    .container__content
+    {
+        margin-left: 15%;
+    }
+    .sidebar__end-icons {
+        height: 26px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -622,6 +668,13 @@ body
     body
     {
         background-color: rgb(255, 0, 200);
+    }
+    .content__left
+    {
+        width: 482px;
+    }
+    .content__right {
+        width: 382px;
     }
 }
 
