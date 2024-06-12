@@ -1,7 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *
 {
     margin: 0;
-    padding: 0;
 }
 body
 {
@@ -10,12 +11,13 @@ body
 .container
 {
     display: flex;
+    width: 100%;
 }
 .container__sidebar
 {
     position: fixed;
     height: 100%;
-    border-radius: .6em;
+    border-radius: 0em 1.2em 1.2em 0;
     background-color: black;
     box-shadow: 0 6px 22px rgba(0, 0, 0, .7);
 }
@@ -100,12 +102,11 @@ body
 }
 .text-info__greet
 {
-    margin-bottom: .3em;
     width: 130px;
 }
 .text-info__greet--font
 {
-    font-family: 'PoetsenOne', sans-serif;
+    font-family: "PoetsenOne";
     font-size: 1.5em;
     font-weight: 400;
 }
@@ -132,6 +133,7 @@ body
     align-items: center;
     margin: 1em;
     height: 3em;
+    width: 100%;
     justify-content: space-around;
 }
 .english-level__firt-item
@@ -142,14 +144,14 @@ body
     background-color:#F5F5F7;
     border-radius: .7em;
     padding: .2em;
-    width: 100%;
+    width: 80%;
 }
 .firt-item__icono
 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
+    min-width: 40px;
     height: 40px;
     border-radius: .5em;
     background-color: rgb(255, 255, 255);
@@ -171,6 +173,7 @@ body
     font-family: 'PoetsenOne', sans-serif;
     font-size: 1em;
     font-weight: 400;
+    min-width: 155px;
 }
 .level__text-name
 {
@@ -189,21 +192,28 @@ body
     border-radius: .6em;
     border: #000;
     color: white;
-    height: 26px;
-    font-family: "PoetsenOne", sans-serif;
+    height: 32px;
+    width: 100%;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 500;
     font-size: .8em;
     letter-spacing: -0.3px;
     padding: .4em;
     margin-left: .2em;
 }
-
-.english-level__second-item #second-item__arrows--size
+.second-item__arrows
 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 30px;
-    max-width: 50px;
+}
+.english-level__second-item
+{
+    width: 30%;
+}
+.english-level__second-item #second-item__arrows--size
+{
+    display: flex;
+    width: 76%;
     padding: .04em;
 }
 .left__courses
@@ -219,7 +229,7 @@ body
 }
 .tittle-courses--font
 {
-    font-family: 'PoetsenOne', sans-serif;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
     font-size: .9em;
     font-weight: 400;
 }
@@ -253,7 +263,7 @@ body
     padding: .3em;
     border-radius: .7em;
     background-color: #F5F5F7;
-    height: 41px;
+    height: 47px;
     width: 100%;
     margin: .5em;
     margin-left: 0;
@@ -298,16 +308,13 @@ body
 {
     display: flex;
     align-items: center;
+    margin-right: 2em;
 }
 .top-content__time
 {
     display: flex;
     min-width: 75px;
     margin-right: 1em;
-}
-.time__analog-time
-{
-    width: 53px;
 }
 
 .time__analog-time span
@@ -321,7 +328,6 @@ body
     font-family: 'roboto', sans-serif;
     font-size: .7em;
     font-weight: 400;
-    margin-right: .5em  ;
 }
 .top-content__qualification
 {
@@ -329,8 +335,9 @@ body
 }
 .qualification__icon-fire, .time__icon-watch
 {
-    margin-right: .5em;
+    margin-right: .1em;
     display: flex;
+    min-width: 10px;
 }
 .container-rigth__bottom-content
 {
@@ -345,6 +352,7 @@ body
     border: none;
     border-radius: .4em;
     padding: .4em;
+    height: 30px;
     font-family: "PoetsenOne", sans-serif;
     font-size: .8em;
     letter-spacing: -0.3px;
@@ -394,10 +402,10 @@ body
 .bar-search__rigth-item
 {
     width: 30%;
-    padding: .3em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 1em;
 }
 .notifications__icon-notification
 {
@@ -423,9 +431,11 @@ body
     width: 100%; 
     border-radius: .5em;
 }
-.count-courses__left-container
+.count-courses__left-container, .count-courses__right-container
 {
     display: flex;
+    width: 55%;
+    justify-content: center;
     
 }
 .left-container__text-info, .right-container__text-info
@@ -435,9 +445,11 @@ body
     align-items: center;
     display: flex;
     border-radius: .8em;
-    height: 70px;
+    height: 78px;
+    justify-content: center;
+    width: 82%;
     margin: .3em;
-
+    box-shadow: .3px 1.5px 5px #7f7d7d;
 }
 .text-info__internal-conatiner
 {
@@ -448,18 +460,19 @@ body
     display: flex;
     align-items: center;
     font-family: 'PoetsenOne', sans-serif;
-    font-size: 2em;
+    font-size: 1.9em;
     font-weight: 400;
     margin-left: .4em;
-    margin-right: .4em;
+    margin-right: .1em;
 }
 .text-info__courses-completed
 {
     display: flex;
     align-items: center;
     font-family: 'roboto', sans-serif;
-    font-size: .8em;
+    font-size: .6em;
     font-weight: 400;
+    width: 50px;
 }
 .count-courses__rigth-container
 {
@@ -482,18 +495,18 @@ body
 .menu__learning-selection
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .learning-selection__hours
 {
     display: flex;
     justify-content: space-around;
-    width: 70%;
     align-items: center;
 }
 
 .hours__learning-hours
-{
+{   
     font-family: 'PoetsenOne', sans-serif;
     font-size: .8em;
     font-weight: 400;
@@ -511,7 +524,7 @@ body
 .learning-selection__dropdown
 {
     display: flex;
-    width: 30%;
+    width: 27%;
     justify-content: center;
 }
 .dropdown__boton
@@ -649,8 +662,13 @@ body
     }
     .sidebar__center-icons
     {
-        height: 50%;
-        margin-top: -91px;
+        height: 55%;
+        margin-top: -31px;
+    }
+    .center-icons__icon img
+    {
+        height: 20px;
+        width: 20px;
     }
     
     .container__content
@@ -668,18 +686,79 @@ body
     body
     {
         background-color: rgb(255, 0, 200);
+        
     }
     .content__left
     {
-        width: 482px;
+        width: 45%;
     }
     .content__right {
-        width: 382px;
+        width: 40%;
     }
+    .container__content
+    {
+        margin-left: 8%;
+        max-width: 1281px;
+    }
+    .left__card-greet
+    {
+        height: 100px;
+    }
+    .image-greet_image #image-greet 
+    {
+        margin-top: -1.6em;
+        height: 160px;
+    }
+    .english-level__firt-item 
+    {
+        height: 50px;
+    }
+    .boton-continue--style 
+    {
+        width: 89px;
+    }
+    .course-content__card 
+    {
+        height: 50px;
+    }
+    .card-greet__text-info
+    {
+        margin-top: 1.5em;
+    }
+
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+/* cambiar a 89 */
+@media (min-width: 1200px) 
+{
+    
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {  }
+@media (min-width: 1489px) 
+{
+    body
+    {
+        background-color: rgb(130, 108, 255);
+        display: flex;
+        justify-content: center;
+    }
+    .container  
+    {
+        width: 63%;
+    }
+    .container__content
+    {
+        margin-left: 12%;
+        max-width: 1489px;
+    }
+    .content__left
+    {
+        width: 53%;
+        margin-right: 2em;
+    }
+    .content__right {
+        width: 40%;
+    }
+}
