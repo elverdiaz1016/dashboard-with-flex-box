@@ -7,6 +7,10 @@
 body
 {
     background-color: rgb(255, 255, 255);
+    font-family: 'roboto', sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    letter-spacing: -0.3px;
 }
 .container
 {
@@ -592,7 +596,6 @@ body
 .left-container__buttom-content button
 {
     background-color: black;
-    color: white;
     height: 39px;
     width: 100px;
     border-radius: .5em;
@@ -615,7 +618,6 @@ body
 { 
     body
     {
-        background-color: red;
     }
     .content__left
     {
@@ -636,7 +638,6 @@ body
 {
     body
     {
-        background-color: rgb(200, 255, 0);
     }
     .content__left
     {
@@ -686,8 +687,6 @@ body
 {
     body
     {
-        background-color: rgb(255, 0, 200);
-        
     }
     .content__left
     {
@@ -741,7 +740,6 @@ body
 {
     body
     {
-        background-color: rgb(130, 108, 255);
         display: flex;
         justify-content: center;
     }
