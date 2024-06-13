@@ -258,13 +258,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 40px;
-    height: 40px;
+    min-width: 41px;
+    height: 41px;
 }
 
 #card__icon--size {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 .text-info__name {
@@ -564,7 +564,6 @@ body {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 654px) {
-    body {}
 
     .content__left {
         width: 309.1px;
@@ -593,8 +592,6 @@ body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    body {}
-
     .content__left {
         width: 60%;
     }
@@ -641,8 +638,6 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    body {}
-
     .content__left {
         width: 45%;
     }
@@ -692,7 +687,7 @@ body {
 @media (min-width: 1200px) {}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1489px) {
+@media (min-width: 1600px) {
     body {
         display: flex;
         justify-content: center;
