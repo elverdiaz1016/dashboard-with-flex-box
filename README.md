@@ -39,8 +39,9 @@ También utilicé **Adobe XD** para diseñar y prototipar la interfaz de usuario
 
 <img src="images/xdAdobe.png" alt="image example xd" width="800">
 
-##### Este proyecto no solo reforzó mis habilidades técnicas, sino que también mejoró mi capacidad para seguir mejores prácticas de desarrollo web y diseñar interfaces de usuario efectivas.
 <h6> Este diseño fue replicado de pinterest: <a href="https://co.pinterest.com/pin/618189486381336452/">https://co.pinterest.com/pin/618189486381336452/</a></h6>
+
+##### Este proyecto no solo reforzó mis habilidades técnicas, sino que también mejoró mi capacidad para seguir mejores prácticas de desarrollo web y diseñar interfaces de usuario efectivas.
 ---
 
 Para cualquier pregunta, contáctame por email: diazelver1016@gmail.com
