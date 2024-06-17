@@ -25,20 +25,23 @@ Además, me familiaricé con varios comandos de **Git**, lo que me permitió ges
 
 ## Flex Box
 La adaptabilidad del diseño también fue una prioridad, lograda a través de técnicas de **diseño responsivo** y la flexibilidad del **Flexbox**, garantizando que la interfaz se vea y funcione bien en una variedad de dispositivos.
-<img src="https://www.codigocorrecto.com/wp-content/uploads/2021/03/flexbox-1024x536.jpg" alt="image example BEM" width="800">
+<img src="https://www.codigocorrecto.com/wp-content/uploads/2021/03/flexbox-1024x536.jpg" alt="image example flex box" width="800">
 ### Course Flex Box
 
 <img src="images/flexBoxFroggy.png" alt="image example BEM" width="800">
 
-Asimismo, aprendí a clonar elementos con **JavaScript**, mejorando así la interactividad de la aplicación. Este proyecto no solo reforzó mis habilidades técnicas, sino que también mejoró mi capacidad para seguir mejores prácticas de desarrollo web.
-<img src="images/cloneJS.png" alt="image example cloneJs" width="800">
+Asimismo, aprendí a clonar elementos con **JavaScript**, mejorando así la interactividad de la aplicación. 
+<img src="https://i.ytimg.com/vi/zjYgz50E0mA/maxresdefault.jpg" alt="image example froggy" width="800">
 
+## Adobe XD
+
+También utilicé **Adobe XD** para diseñar y prototipar la interfaz de usuario de mi proyecto. Adobe XD me permitió crear un mockup, facilitando la visualización y planificación del diseño antes de su implementación.
+
+<img src="images/xdAdobe.png" alt="image example xd" width="800">
+
+##### Este proyecto no solo reforzó mis habilidades técnicas, sino que también mejoró mi capacidad para seguir mejores prácticas de desarrollo web y diseñar interfaces de usuario efectivas.
 
 ---
-
-
-
-
 
 Para cualquier pregunta, contáctame por email: diazelver1016@gmail.com
 
